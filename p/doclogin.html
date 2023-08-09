@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../s/reg.css" type="text/css" />
+    <title>Login page</title>
+  </head>
+  <body>
+    <div class="main">
+      <img src="../i/images.png" class="logim" />
+      <h1>Login</h1>
+      <form action="/doc_login" method="post">
+        <p>Mobile number/Email</p>
+        <input
+          type="text"
+          placeholder="Enter mobile number/Email"
+          class="use"
+          name="user"
+          autofocus
+          required
+        /><br /><br />
+        <p>Password</p>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          class="use"
+          name="password"
+          required
+        /><br /><br />
+        <!-- <input
+          type="radio"
+          name="login-type"
+          value="userregistration"
+          id="ulradio"
+          checked
+          required
+        />&nbsp;&nbsp;&nbsp; -->
+        <!-- <label for="ulradio">Tourist Login</label>
+        &nbsp;&nbsp;&nbsp; -->
+        <!-- <input type="radio" name="login-type" value="agentregistration" id="alradio" required>&nbsp;&nbsp;&nbsp;
+            <label for="alradio">Agent Login</label><br><br> -->
+
+        <!-- <div class="reg_sel">
+          <p>Select Position&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <select name="" id="" class="selop">
+            <option value="">Select position</option>
+            <option value="">Doctor</option>
+            <option value="">Staff</option>
+            <option value="">Pharmacy Staff</option>
+          </select>
+        </div> -->
+        <input type="submit" value="Log In" class="login" /><br /><br />
+        <!-- <a href="forg.html" class="for">Forgot password ?</a><br /> -->
+        <!-- <a href="/p_register" class="new">Don't have an account?</a> -->
+      </form>
+    </div>
+  </body>
+</html>
